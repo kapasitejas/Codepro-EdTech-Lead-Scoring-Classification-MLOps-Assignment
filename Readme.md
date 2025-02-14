@@ -22,7 +22,7 @@ This repository contains the MLOPS CodePro EdTech Assignment, which focuses on i
 To set up this project locally, follow these steps:
 
 1. Clone the repository:
-   git clone [https://github.com/your-username/MLOPS-CodePro-EdTech-Assignment.git](https://github.com/kapasitejas/Codepro-EdTech-Lead-Scoring-Classification-MLOps-Assignment)
+   git clone https://github.com/kapasitejas/Codepro-EdTech-Lead-Scoring-Classification-MLOps-Assignment
 2. Navigate to the project directory:
    cd MLOPS-CodePro-EdTech-Assignment
 3. [Add any additional setup steps, such as installing dependencies, setting up virtual environments, etc.]
