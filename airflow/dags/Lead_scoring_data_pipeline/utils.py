@@ -12,6 +12,9 @@ from Lead_scoring_data_pipeline.constants import *
 from Lead_scoring_data_pipeline.mapping.significant_categorical_level import *
 from Lead_scoring_data_pipeline.mapping.city_tier_mapping import city_tier_mapping
 
+## Modified History:
+## 14Feb,2025 - Tejas Kapasi - LeadScoring File updated, Used Cosntant after running inference pipeline.
+
 
 ###############################################################################
 # Define the function to build database
@@ -92,7 +95,8 @@ def load_data_into_db():
     '''
     connection = sqlite3.connect(DB_PATH+DB_FILE_NAME)
     
-    df_lead_scoring = pd.read_csv(DATA_DIRECTORY+'leadscoring.csv')
+    #df_lead_scoring = pd.read_csv(DATA_DIRECTORY+'leadscoring.csv')
+    df_lead_scoring = pd.read_csv(DATA_DIRECTORY+LEAD_SCORING_FILE+'.csv')
 
     df_lead_scoring['total_leads_droppped'] = df_lead_scoring['total_leads_droppped'].fillna(0)
     df_lead_scoring['referred_lead'] = df_lead_scoring['referred_lead'].fillna(0)

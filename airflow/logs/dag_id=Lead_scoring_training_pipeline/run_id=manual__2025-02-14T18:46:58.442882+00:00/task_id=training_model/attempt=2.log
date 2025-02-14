@@ -1,0 +1,201 @@
+[2025-02-14 18:49:18,432] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: Lead_scoring_training_pipeline.training_model manual__2025-02-14T18:46:58.442882+00:00 [queued]>
+[2025-02-14 18:49:18,437] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: Lead_scoring_training_pipeline.training_model manual__2025-02-14T18:46:58.442882+00:00 [queued]>
+[2025-02-14 18:49:18,437] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2025-02-14 18:49:18,437] {taskinstance.py:1377} INFO - Starting attempt 2 of 2
+[2025-02-14 18:49:18,437] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2025-02-14 18:49:18,487] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): training_model> on 2025-02-14 18:46:58.442882+00:00
+[2025-02-14 18:49:18,497] {standard_task_runner.py:52} INFO - Started process 1823 to run task
+[2025-02-14 18:49:18,500] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'Lead_scoring_training_pipeline', 'training_model', 'manual__2025-02-14T18:46:58.442882+00:00', '--job-id', '56', '--raw', '--subdir', 'DAGS_FOLDER/Lead_scoring_training_pipeline/.ipynb_checkpoints/lead_scoring_training_pipeline-checkpoint.py', '--cfg-path', '/tmp/tmpvev8dc9s', '--error-file', '/tmp/tmpwzbc98ez']
+[2025-02-14 18:49:18,501] {standard_task_runner.py:80} INFO - Job 56: Subtask training_model
+[2025-02-14 18:49:18,551] {task_command.py:371} INFO - Running <TaskInstance: Lead_scoring_training_pipeline.training_model manual__2025-02-14T18:46:58.442882+00:00 [running]> on host c9e5903262b9
+[2025-02-14 18:49:18,597] {taskinstance.py:1589} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=Lead_scoring_training_pipeline
+AIRFLOW_CTX_TASK_ID=training_model
+AIRFLOW_CTX_EXECUTION_DATE=2025-02-14T18:46:58.442882+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2025-02-14T18:46:58.442882+00:00
+[2025-02-14 18:49:18,629] {connectionpool.py:780} WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7a84ece940>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=Lead_scoring_mlflow_production
+[2025-02-14 18:49:20,163] {process_utils.py:125} INFO - Sending Signals.SIGTERM to group 1823. PIDs of all processes in the group: [1823]
+[2025-02-14 18:49:20,163] {process_utils.py:80} INFO - Sending the signal Signals.SIGTERM to group 1823
+[2025-02-14 18:49:20,163] {taskinstance.py:1561} ERROR - Received SIGTERM. Terminating subprocesses.
+[2025-02-14 18:49:20,168] {connectionpool.py:780} WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7a84ece670>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+[2025-02-14 18:49:24,172] {connectionpool.py:780} WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7a84ee8160>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+[2025-02-14 18:49:24,806] {taskinstance.py:1169} INFO - Dependencies not met for <TaskInstance: Lead_scoring_training_pipeline.training_model manual__2025-02-14T18:46:58.442882+00:00 [running]>, dependency 'Task Instance Not Running' FAILED: Task is in the running state
+[2025-02-14 18:49:24,806] {taskinstance.py:1169} INFO - Dependencies not met for <TaskInstance: Lead_scoring_training_pipeline.training_model manual__2025-02-14T18:46:58.442882+00:00 [running]>, dependency 'Task Instance State' FAILED: Task is in the 'running' state.
+[2025-02-14 18:49:24,810] {local_task_job.py:101} INFO - Task is not able to be run
+[2025-02-14 18:49:32,181] {connectionpool.py:780} WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7a84ee8460>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+[2025-02-14 18:49:48,195] {connectionpool.py:780} WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7a84ee8670>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+[2025-02-14 18:50:20,228] {connectionpool.py:780} WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7a84ee8880>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+[2025-02-14 18:50:20,230] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/opt/conda/lib/python3.8/site-packages/urllib3/util/connection.py", line 96, in create_connection
+    raise err
+  File "/opt/conda/lib/python3.8/site-packages/urllib3/util/connection.py", line 86, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/opt/conda/lib/python3.8/site-packages/urllib3/connectionpool.py", line 394, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/opt/conda/lib/python3.8/site-packages/urllib3/connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/opt/conda/lib/python3.8/http/client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/opt/conda/lib/python3.8/http/client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/opt/conda/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/opt/conda/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/opt/conda/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/opt/conda/lib/python3.8/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/opt/conda/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f7a84f2bee0>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 151, in http_request
+    return _get_http_response_with_retries(
+  File "/opt/conda/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 91, in _get_http_response_with_retries
+    return session.request(method, url, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/opt/conda/lib/python3.8/site-packages/urllib3/connectionpool.py", line 783, in urlopen
+    return self.urlopen(
+  File "/opt/conda/lib/python3.8/site-packages/urllib3/connectionpool.py", line 758, in urlopen
+    retries.sleep()
+  File "/opt/conda/lib/python3.8/site-packages/urllib3/util/retry.py", line 414, in sleep
+    self._sleep_backoff()
+  File "/opt/conda/lib/python3.8/site-packages/urllib3/util/retry.py", line 398, in _sleep_backoff
+    time.sleep(backoff)
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1563, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/mlflow/store/tracking/rest_store.py", line 285, in get_experiment_by_name
+    response_proto = self._call_endpoint(GetExperimentByName, req_body)
+  File "/opt/conda/lib/python3.8/site-packages/mlflow/store/tracking/rest_store.py", line 56, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "/opt/conda/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 249, in call_endpoint
+    response = http_request(
+  File "/opt/conda/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 163, in http_request
+    raise MlflowException("API request to %s failed with exception %s" % (url, e))
+mlflow.exceptions.MlflowException: API request to http://0.0.0.0:6006/api/2.0/mlflow/experiments/get-by-name failed with exception Task received SIGTERM signal
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/opt/conda/lib/python3.8/site-packages/urllib3/util/connection.py", line 96, in create_connection
+    raise err
+  File "/opt/conda/lib/python3.8/site-packages/urllib3/util/connection.py", line 86, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/opt/conda/lib/python3.8/site-packages/urllib3/connectionpool.py", line 394, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/opt/conda/lib/python3.8/site-packages/urllib3/connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/opt/conda/lib/python3.8/http/client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/opt/conda/lib/python3.8/http/client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/opt/conda/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/opt/conda/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/opt/conda/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/opt/conda/lib/python3.8/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/opt/conda/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f7a84ee8a90>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/opt/conda/lib/python3.8/site-packages/urllib3/connectionpool.py", line 783, in urlopen
+    return self.urlopen(
+  File "/opt/conda/lib/python3.8/site-packages/urllib3/connectionpool.py", line 783, in urlopen
+    return self.urlopen(
+  File "/opt/conda/lib/python3.8/site-packages/urllib3/connectionpool.py", line 783, in urlopen
+    return self.urlopen(
+  [Previous line repeated 2 more times]
+  File "/opt/conda/lib/python3.8/site-packages/urllib3/connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "/opt/conda/lib/python3.8/site-packages/urllib3/util/retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='0.0.0.0', port=6006): Max retries exceeded with url: /api/2.0/mlflow/experiments/list?view_type=ALL (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7a84ee8a90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 151, in http_request
+    return _get_http_response_with_retries(
+  File "/opt/conda/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 91, in _get_http_response_with_retries
+    return session.request(method, url, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='0.0.0.0', port=6006): Max retries exceeded with url: /api/2.0/mlflow/experiments/list?view_type=ALL (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7a84ee8a90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/opt/conda/lib/python3.8/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/utils.py", line 125, in get_trained_model
+    mlflow.set_experiment(EXPERIMENT)
+  File "/opt/conda/lib/python3.8/site-packages/mlflow/tracking/fluent.py", line 110, in set_experiment
+    experiment = client.get_experiment_by_name(experiment_name)
+  File "/opt/conda/lib/python3.8/site-packages/mlflow/tracking/client.py", line 462, in get_experiment_by_name
+    return self._tracking_client.get_experiment_by_name(name)
+  File "/opt/conda/lib/python3.8/site-packages/mlflow/tracking/_tracking_service/client.py", line 162, in get_experiment_by_name
+    return self.store.get_experiment_by_name(name)
+  File "/opt/conda/lib/python3.8/site-packages/mlflow/store/tracking/rest_store.py", line 297, in get_experiment_by_name
+    for experiment in self.list_experiments(ViewType.ALL):
+  File "/opt/conda/lib/python3.8/site-packages/mlflow/store/tracking/rest_store.py", line 77, in list_experiments
+    response_proto = self._call_endpoint(ListExperiments, req_body)
+  File "/opt/conda/lib/python3.8/site-packages/mlflow/store/tracking/rest_store.py", line 56, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "/opt/conda/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 249, in call_endpoint
+    response = http_request(
+  File "/opt/conda/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 163, in http_request
+    raise MlflowException("API request to %s failed with exception %s" % (url, e))
+mlflow.exceptions.MlflowException: API request to http://0.0.0.0:6006/api/2.0/mlflow/experiments/list failed with exception HTTPConnectionPool(host='0.0.0.0', port=6006): Max retries exceeded with url: /api/2.0/mlflow/experiments/list?view_type=ALL (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7a84ee8a90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[2025-02-14 18:50:20,245] {taskinstance.py:1415} INFO - Marking task as FAILED. dag_id=Lead_scoring_training_pipeline, task_id=training_model, execution_date=20250214T184658, start_date=20250214T184951, end_date=20250214T185020
+[2025-02-14 18:50:20,275] {standard_task_runner.py:92} ERROR - Failed to execute job 56 for task training_model (API request to http://0.0.0.0:6006/api/2.0/mlflow/experiments/list failed with exception HTTPConnectionPool(host='0.0.0.0', port=6006): Max retries exceeded with url: /api/2.0/mlflow/experiments/list?view_type=ALL (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7a84ee8a90>: Failed to establish a new connection: [Errno 111] Connection refused')); 1823)

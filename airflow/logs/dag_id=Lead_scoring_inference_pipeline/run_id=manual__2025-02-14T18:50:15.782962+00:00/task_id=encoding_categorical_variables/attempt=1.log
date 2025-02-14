@@ -1,0 +1,23 @@
+[2025-02-14 18:51:25,727] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: Lead_scoring_inference_pipeline.encoding_categorical_variables manual__2025-02-14T18:50:15.782962+00:00 [queued]>
+[2025-02-14 18:51:25,733] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: Lead_scoring_inference_pipeline.encoding_categorical_variables manual__2025-02-14T18:50:15.782962+00:00 [queued]>
+[2025-02-14 18:51:25,734] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2025-02-14 18:51:25,734] {taskinstance.py:1377} INFO - Starting attempt 1 of 2
+[2025-02-14 18:51:25,734] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2025-02-14 18:51:25,759] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): encoding_categorical_variables> on 2025-02-14 18:50:15.782962+00:00
+[2025-02-14 18:51:25,767] {standard_task_runner.py:52} INFO - Started process 1931 to run task
+[2025-02-14 18:51:25,770] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'Lead_scoring_inference_pipeline', 'encoding_categorical_variables', 'manual__2025-02-14T18:50:15.782962+00:00', '--job-id', '60', '--raw', '--subdir', 'DAGS_FOLDER/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py', '--cfg-path', '/tmp/tmptt1ishpg', '--error-file', '/tmp/tmpve9hs1mq']
+[2025-02-14 18:51:25,771] {standard_task_runner.py:80} INFO - Job 60: Subtask encoding_categorical_variables
+[2025-02-14 18:51:25,818] {task_command.py:371} INFO - Running <TaskInstance: Lead_scoring_inference_pipeline.encoding_categorical_variables manual__2025-02-14T18:50:15.782962+00:00 [running]> on host c9e5903262b9
+[2025-02-14 18:51:26,073] {taskinstance.py:1589} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=Lead_scoring_inference_pipeline
+AIRFLOW_CTX_TASK_ID=encoding_categorical_variables
+AIRFLOW_CTX_EXECUTION_DATE=2025-02-14T18:50:15.782962+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2025-02-14T18:50:15.782962+00:00
+[2025-02-14 18:51:31,553] {python.py:173} INFO - Done. Returned value was: None
+[2025-02-14 18:51:31,560] {taskinstance.py:1415} INFO - Marking task as SUCCESS. dag_id=Lead_scoring_inference_pipeline, task_id=encoding_categorical_variables, execution_date=20250214T185015, start_date=20250214T185125, end_date=20250214T185131
+[2025-02-14 18:51:31,687] {local_task_job.py:156} INFO - Task exited with return code 0
+[2025-02-14 18:51:31,858] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

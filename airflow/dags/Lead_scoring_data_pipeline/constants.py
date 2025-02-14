@@ -15,3 +15,6 @@ INDEX_COLUMNS_INFERENCE = ['created_date', 'city_tier', 'first_platform_c',
                 'referred_lead']
 NOT_FEATURES = ['created_date', 'assistance_interaction', 'career_interaction',
                 'payment_interaction', 'social_interaction', 'syllabus_interaction']
+
+# During Inference Pipeline We got the File 
+LEAD_SCORING_FILE='leadscoring_inference'
