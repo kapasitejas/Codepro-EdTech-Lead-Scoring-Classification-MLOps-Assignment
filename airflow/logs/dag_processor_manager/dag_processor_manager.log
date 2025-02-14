@@ -3327,3 +3327,731 @@ File Path                                                                       
 /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                              3           0  0.31s           2025-02-14T14:42:29
 ================================================================================
 [2025-02-14 14:42:55,581] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15
+[2025-02-14 17:09:04,179] {manager.py:480} INFO - Processing files using up to 1 processes at a time 
+[2025-02-14 17:09:04,180] {manager.py:481} INFO - Process each file at most once every 30 seconds
+[2025-02-14 17:09:04,180] {manager.py:482} INFO - Checking for new files in /home/airflow/dags every 300 seconds
+[2025-02-14 17:09:04,180] {manager.py:690} INFO - Searching for files in /home/airflow/dags
+[2025-02-14 17:09:04,195] {manager.py:693} INFO - There are 41 files in /home/airflow/dags
+[2025-02-14 17:09:06,256] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/airflow/dags/Lead_scoring_data_pipeline/constants.py                                                                                  0           0
+/home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py                                                                 0           0
+/home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/constants-checkpoint.py                                                    0           0
+/home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/lead_scoring_data_pipeline-checkpoint.py                                   0           0
+/home/airflow/dags/Lead_scoring_training_pipeline/constants.py                                                                              0           0
+/home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/lead_scoring_training_pipeline-checkpoint.py                           0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                                     0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                              0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                  0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py                                                        0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                            0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py                                                        0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                          0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                             0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                                         0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                            0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py                                                 0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                                        0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                                          0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                                 0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                                      0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                         0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                               0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                             0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                               0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                   0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                    0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                             0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                             0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py                                                           0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py                                                             0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                             0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py                                                              0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                      0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                                      0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                              0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                                    0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                                      0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py                                                              0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                               0           0
+/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py                                                         1           0  2.01s           2025-02-14T17:09:06
+================================================================================
+[2025-02-14 17:09:37,430] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/airflow/dags/Lead_scoring_data_pipeline/constants.py                                                                                  0           0  0.11s           2025-02-14T17:09:14
+/home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/constants-checkpoint.py                                                    0           0  0.11s           2025-02-14T17:09:15
+/home/airflow/dags/Lead_scoring_training_pipeline/constants.py                                                                              0           0  0.11s           2025-02-14T17:09:10
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                  0           0  0.21s           2025-02-14T17:09:19
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                            0           0  0.31s           2025-02-14T17:09:21
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                                         0           0  0.31s           2025-02-14T17:09:25
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                               0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                   0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                    0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                             0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                             0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py                                                           0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py                                                             0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                             0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py                                                              0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                      0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                                      0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                              0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                                    0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                                      0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py                                                              0           0
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                               0           0
+/home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py                                                                 1           0  0.82s           2025-02-14T17:09:12
+/home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/lead_scoring_data_pipeline-checkpoint.py                                   1           0  0.81s           2025-02-14T17:09:14
+/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py                                                         1           0  2.01s           2025-02-14T17:09:06
+/home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/lead_scoring_training_pipeline-checkpoint.py                           1           0  1.93s           2025-02-14T17:09:09
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                                     1           0  0.31s           2025-02-14T17:09:17
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                              1           0  0.31s           2025-02-14T17:09:18
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py                                                        1           0  0.41s           2025-02-14T17:09:20
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py                                                        1           0  0.31s           2025-02-14T17:09:22
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                          1           0  0.31s           2025-02-14T17:09:24
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                             1           0  0.31s           2025-02-14T17:09:24
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                            1           0  0.31s           2025-02-14T17:09:26
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py                                                 1           0  0.41s           2025-02-14T17:09:28
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                                        1           0  0.31s           2025-02-14T17:09:30
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                                          1           0  0.31s           2025-02-14T17:09:30
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                                 1           0  0.41s           2025-02-14T17:09:32
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                                      1           0  0.31s           2025-02-14T17:09:33
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                         1           0  0.31s           2025-02-14T17:09:34
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                               1           0  0.21s           2025-02-14T17:09:36
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                             1           0  0.31s           2025-02-14T17:09:37
+================================================================================
+[2025-02-14 17:10:09,167] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/airflow/dags/Lead_scoring_data_pipeline/constants.py                                                                                  0           0  0.11s           2025-02-14T17:09:14
+/home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/constants-checkpoint.py                                                    0           0  0.11s           2025-02-14T17:09:15
+/home/airflow/dags/Lead_scoring_training_pipeline/constants.py                                                                              0           0  0.11s           2025-02-14T17:10:05
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                  0           0  0.21s           2025-02-14T17:09:19
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                            0           0  0.31s           2025-02-14T17:09:21
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                                         0           0  0.31s           2025-02-14T17:09:25
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py                                                              0           0  0.11s           2025-02-14T17:09:55
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                               0           0  0.11s           2025-02-14T17:09:56
+/home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py                                                                 1           0  0.81s           2025-02-14T17:10:07
+/home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/lead_scoring_data_pipeline-checkpoint.py                                   1           0  0.91s           2025-02-14T17:10:09
+/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py                                                         1           0  3.12s           2025-02-14T17:10:00
+/home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/lead_scoring_training_pipeline-checkpoint.py                           1           0  3.22s           2025-02-14T17:10:04
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                                     1           0  0.31s           2025-02-14T17:09:17
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                              1           0  0.31s           2025-02-14T17:09:18
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py                                                        1           0  0.41s           2025-02-14T17:09:20
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py                                                        1           0  0.31s           2025-02-14T17:09:22
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                          1           0  0.31s           2025-02-14T17:09:24
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                             1           0  0.31s           2025-02-14T17:09:24
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                            1           0  0.31s           2025-02-14T17:09:26
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py                                                 1           0  0.41s           2025-02-14T17:09:28
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                                        1           0  0.31s           2025-02-14T17:09:30
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                                          1           0  0.31s           2025-02-14T17:09:30
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                                 1           0  0.41s           2025-02-14T17:09:32
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                                      1           0  0.31s           2025-02-14T17:09:33
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                         1           0  0.31s           2025-02-14T17:09:34
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                               1           0  0.21s           2025-02-14T17:09:36
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                             1           0  0.31s           2025-02-14T17:09:37
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                               1           0  0.31s           2025-02-14T17:09:38
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                   1           0  0.31s           2025-02-14T17:09:40
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                    1           0  0.21s           2025-02-14T17:09:41
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                             1           0  0.31s           2025-02-14T17:09:42
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py                                                           1           0  0.31s           2025-02-14T17:09:45
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py                                                              1           0  0.31s           2025-02-14T17:09:49
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                      1           0  0.31s           2025-02-14T17:09:50
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                              1           0  0.31s           2025-02-14T17:09:51
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                                    1           0  0.41s           2025-02-14T17:09:53
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                                      1           0  0.31s           2025-02-14T17:09:54
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                             2           0  0.31s           2025-02-14T17:09:44
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py                                                             2           0  0.41s           2025-02-14T17:09:46
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                             2           0  0.31s           2025-02-14T17:09:47
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                                      3           0  0.41s           2025-02-14T17:09:51
+================================================================================
+[2025-02-14 17:10:52,795] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/airflow/dags/Lead_scoring_data_pipeline/constants.py                                                                                  0           0  0.11s           2025-02-14T17:10:10
+/home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/constants-checkpoint.py                                                    0           0  0.11s           2025-02-14T17:10:10
+/home/airflow/dags/Lead_scoring_training_pipeline/constants.py                                                                              0           0  0.11s           2025-02-14T17:10:05
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                  0           0  0.31s           2025-02-14T17:10:14
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                            0           0  0.31s           2025-02-14T17:10:17
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                                         0           0  0.31s           2025-02-14T17:10:21
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py                                                              0           0  0.11s           2025-02-14T17:09:55
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                               0           0  0.11s           2025-02-14T17:09:56
+/home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py                                                                 1           0  0.81s           2025-02-14T17:10:07
+/home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/lead_scoring_data_pipeline-checkpoint.py                                   1           0  0.91s           2025-02-14T17:10:09
+/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py                                                         1           0  1.93s           2025-02-14T17:10:33
+/home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/lead_scoring_training_pipeline-checkpoint.py                           1           0  3.22s           2025-02-14T17:10:04
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                                     1           0  0.51s           2025-02-14T17:10:12
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                              1           0  0.31s           2025-02-14T17:10:13
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py                                                        1           0  0.41s           2025-02-14T17:10:15
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py                                                        1           0  0.21s           2025-02-14T17:10:18
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                          1           0  0.31s           2025-02-14T17:10:19
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                             1           0  0.31s           2025-02-14T17:10:20
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                            1           0  0.31s           2025-02-14T17:10:22
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py                                                 1           0  0.41s           2025-02-14T17:10:52
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                                        1           0  0.31s           2025-02-14T17:09:30
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                                          1           0  0.31s           2025-02-14T17:09:30
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                                 1           0  0.41s           2025-02-14T17:09:32
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                                      1           0  0.31s           2025-02-14T17:09:33
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                         1           0  0.31s           2025-02-14T17:09:34
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                               1           0  0.21s           2025-02-14T17:09:36
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                             1           0  0.31s           2025-02-14T17:09:37
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                               1           0  0.31s           2025-02-14T17:09:38
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                   1           0  0.31s           2025-02-14T17:09:40
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                    1           0  0.21s           2025-02-14T17:09:41
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                             1           0  0.31s           2025-02-14T17:09:42
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py                                                           1           0  0.31s           2025-02-14T17:09:45
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py                                                              1           0  0.31s           2025-02-14T17:09:49
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                      1           0  0.31s           2025-02-14T17:09:50
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                              1           0  0.31s           2025-02-14T17:09:51
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                                    1           0  0.41s           2025-02-14T17:09:53
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                                      1           0  0.31s           2025-02-14T17:09:54
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                             2           0  0.31s           2025-02-14T17:09:44
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py                                                             2           0  0.41s           2025-02-14T17:09:46
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                             2           0  0.31s           2025-02-14T17:09:47
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                                      3           0  0.41s           2025-02-14T17:09:51
+================================================================================
+[2025-02-14 17:11:23,142] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/airflow/dags/Lead_scoring_data_pipeline/constants.py                                                                                  0           0  0.11s           2025-02-14T17:10:10
+/home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/constants-checkpoint.py                                                    0           0  0.11s           2025-02-14T17:10:10
+/home/airflow/dags/Lead_scoring_training_pipeline/constants.py                                                                              0           0  0.11s           2025-02-14T17:10:05
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                  0           0  0.31s           2025-02-14T17:10:14
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                            0           0  0.31s           2025-02-14T17:10:17
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                                         0           0  0.31s           2025-02-14T17:10:21
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py                                                              0           0  0.11s           2025-02-14T17:11:17
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                               0           0  0.11s           2025-02-14T17:11:18
+/home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py                                                                 1           0  0.81s           2025-02-14T17:10:07
+/home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/lead_scoring_data_pipeline-checkpoint.py                                   1           0  0.91s           2025-02-14T17:10:09
+/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py                                                         1           0  3.12s           2025-02-14T17:11:23
+/home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/lead_scoring_training_pipeline-checkpoint.py                           1           0  3.22s           2025-02-14T17:10:04
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                                     1           0  0.51s           2025-02-14T17:10:12
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                              1           0  0.31s           2025-02-14T17:10:13
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py                                                        1           0  0.41s           2025-02-14T17:10:15
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py                                                        1           0  0.21s           2025-02-14T17:10:18
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                          1           0  0.31s           2025-02-14T17:10:19
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                             1           0  0.31s           2025-02-14T17:10:20
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                            1           0  0.31s           2025-02-14T17:10:22
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py                                                 1           0  0.41s           2025-02-14T17:10:52
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                                        1           0  0.31s           2025-02-14T17:10:54
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                                          1           0  0.31s           2025-02-14T17:10:55
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                                 1           0  0.41s           2025-02-14T17:10:56
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                                      1           0  0.31s           2025-02-14T17:10:57
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                         1           0  0.31s           2025-02-14T17:10:59
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                               1           0  0.31s           2025-02-14T17:11:00
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                             1           0  0.31s           2025-02-14T17:11:01
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                               1           0  0.31s           2025-02-14T17:11:02
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                   1           0  0.31s           2025-02-14T17:11:03
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                    1           0  0.31s           2025-02-14T17:11:04
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                             1           0  0.21s           2025-02-14T17:11:05
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py                                                           1           0  0.31s           2025-02-14T17:11:07
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py                                                              1           0  0.31s           2025-02-14T17:11:11
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                      1           0  0.41s           2025-02-14T17:11:12
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                              1           0  0.31s           2025-02-14T17:11:13
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                                    1           0  0.41s           2025-02-14T17:11:15
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                                      1           0  0.31s           2025-02-14T17:11:16
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                             2           0  0.51s           2025-02-14T17:11:07
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py                                                             2           0  0.41s           2025-02-14T17:11:08
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                             2           0  0.31s           2025-02-14T17:11:09
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                                      3           0  0.41s           2025-02-14T17:11:13
+================================================================================
+[2025-02-14 17:11:53,814] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/airflow/dags/Lead_scoring_data_pipeline/constants.py                                                                                  0           0  0.11s           2025-02-14T17:11:32
+/home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/constants-checkpoint.py                                                    0           0  0.11s           2025-02-14T17:11:33
+/home/airflow/dags/Lead_scoring_training_pipeline/constants.py                                                                              0           0  0.11s           2025-02-14T17:11:28
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                  0           0  0.31s           2025-02-14T17:11:37
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                            0           0  0.31s           2025-02-14T17:11:38
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                                         0           0  0.21s           2025-02-14T17:11:43
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py                                                              0           0  0.11s           2025-02-14T17:11:17
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                               0           0  0.11s           2025-02-14T17:11:18
+/home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py                                                                 1           0  0.82s           2025-02-14T17:11:30
+/home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/lead_scoring_data_pipeline-checkpoint.py                                   1           0  0.81s           2025-02-14T17:11:32
+/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py                                                         1           0  3.12s           2025-02-14T17:11:23
+/home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/lead_scoring_training_pipeline-checkpoint.py                           1           0  3.12s           2025-02-14T17:11:27
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                                     1           0  0.31s           2025-02-14T17:11:34
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                              1           0  0.31s           2025-02-14T17:11:35
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py                                                        1           0  0.31s           2025-02-14T17:11:37
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py                                                        1           0  0.31s           2025-02-14T17:11:39
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                          1           0  0.31s           2025-02-14T17:11:41
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                             1           0  0.21s           2025-02-14T17:11:42
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                            1           0  0.31s           2025-02-14T17:11:43
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py                                                 1           0  0.41s           2025-02-14T17:11:45
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                                        1           0  0.31s           2025-02-14T17:11:46
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                                          1           0  0.31s           2025-02-14T17:11:47
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                                 1           0  0.31s           2025-02-14T17:11:48
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                                      1           0  0.31s           2025-02-14T17:11:49
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                         1           0  0.31s           2025-02-14T17:11:51
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                               1           0  0.31s           2025-02-14T17:11:52
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                             1           0  0.31s           2025-02-14T17:11:53
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                               1           0  0.31s           2025-02-14T17:11:02
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                   1           0  0.31s           2025-02-14T17:11:03
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                    1           0  0.31s           2025-02-14T17:11:04
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                             1           0  0.21s           2025-02-14T17:11:05
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py                                                           1           0  0.31s           2025-02-14T17:11:07
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py                                                              1           0  0.31s           2025-02-14T17:11:11
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                      1           0  0.41s           2025-02-14T17:11:12
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                              1           0  0.31s           2025-02-14T17:11:13
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                                    1           0  0.41s           2025-02-14T17:11:15
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                                      1           0  0.31s           2025-02-14T17:11:16
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                             2           0  0.51s           2025-02-14T17:11:07
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py                                                             2           0  0.41s           2025-02-14T17:11:08
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                             2           0  0.31s           2025-02-14T17:11:09
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                                      3           0  0.41s           2025-02-14T17:11:13
+================================================================================
+[2025-02-14 17:12:24,011] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/airflow/dags/Lead_scoring_data_pipeline/constants.py                                                                                  0           0  0.11s           2025-02-14T17:12:22
+/home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/constants-checkpoint.py                                                    0           0  0.11s           2025-02-14T17:12:22
+/home/airflow/dags/Lead_scoring_training_pipeline/constants.py                                                                              0           0  0.11s           2025-02-14T17:12:17
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                  0           0  0.31s           2025-02-14T17:11:37
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                            0           0  0.31s           2025-02-14T17:11:38
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                                         0           0  0.21s           2025-02-14T17:11:43
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py                                                              0           0  0.11s           2025-02-14T17:11:17
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                               0           0  0.11s           2025-02-14T17:11:18
+/home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py                                                                 1           0  0.81s           2025-02-14T17:12:19
+/home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/lead_scoring_data_pipeline-checkpoint.py                                   1           0  0.82s           2025-02-14T17:12:21
+/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py                                                         1           0  3.12s           2025-02-14T17:12:12
+/home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/lead_scoring_training_pipeline-checkpoint.py                           1           0  2.92s           2025-02-14T17:12:16
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                                     1           0  0.31s           2025-02-14T17:12:24
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                              1           0  0.31s           2025-02-14T17:11:35
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py                                                        1           0  0.31s           2025-02-14T17:11:37
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py                                                        1           0  0.31s           2025-02-14T17:11:39
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                          1           0  0.31s           2025-02-14T17:11:41
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                             1           0  0.21s           2025-02-14T17:11:42
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                            1           0  0.31s           2025-02-14T17:11:43
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py                                                 1           0  0.41s           2025-02-14T17:11:45
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                                        1           0  0.31s           2025-02-14T17:11:46
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                                          1           0  0.31s           2025-02-14T17:11:47
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                                 1           0  0.31s           2025-02-14T17:11:48
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                                      1           0  0.31s           2025-02-14T17:11:49
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                         1           0  0.31s           2025-02-14T17:11:51
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                               1           0  0.31s           2025-02-14T17:11:52
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                             1           0  0.31s           2025-02-14T17:11:53
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                               1           0  0.31s           2025-02-14T17:11:55
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                   1           0  0.31s           2025-02-14T17:11:56
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                    1           0  0.21s           2025-02-14T17:11:57
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                             1           0  0.31s           2025-02-14T17:11:59
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py                                                           1           0  0.31s           2025-02-14T17:12:01
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py                                                              1           0  0.31s           2025-02-14T17:12:05
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                      1           0  0.31s           2025-02-14T17:12:06
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                              1           0  0.31s           2025-02-14T17:12:09
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                                    1           0  0.41s           2025-02-14T17:11:15
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                                      1           0  0.31s           2025-02-14T17:11:16
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                             2           0  0.31s           2025-02-14T17:12:00
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py                                                             2           0  0.41s           2025-02-14T17:12:03
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                             2           0  0.31s           2025-02-14T17:12:04
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                                      3           0  0.32s           2025-02-14T17:12:08
+================================================================================
+[2025-02-14 17:12:54,564] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/airflow/dags/Lead_scoring_data_pipeline/constants.py                                                                                  0           0  0.11s           2025-02-14T17:12:22
+/home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/constants-checkpoint.py                                                    0           0  0.11s           2025-02-14T17:12:22
+/home/airflow/dags/Lead_scoring_training_pipeline/constants.py                                                                              0           0  0.11s           2025-02-14T17:12:17
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                  0           0  0.31s           2025-02-14T17:12:25
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                            0           0  0.31s           2025-02-14T17:12:28
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                                         0           0  0.31s           2025-02-14T17:12:38
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py                                                              0           0  0.11s           2025-02-14T17:12:32
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                               0           0  0.11s           2025-02-14T17:12:33
+/home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py                                                                 1           0  0.81s           2025-02-14T17:12:19
+/home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/lead_scoring_data_pipeline-checkpoint.py                                   1           0  0.82s           2025-02-14T17:12:21
+/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py                                                         1           0  3.12s           2025-02-14T17:12:12
+/home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/lead_scoring_training_pipeline-checkpoint.py                           1           0  2.92s           2025-02-14T17:12:16
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                                     1           0  0.31s           2025-02-14T17:12:24
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                              1           0  0.31s           2025-02-14T17:12:24
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py                                                        1           0  0.41s           2025-02-14T17:12:26
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py                                                        1           0  0.31s           2025-02-14T17:12:34
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                          1           0  0.31s           2025-02-14T17:12:35
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                             1           0  0.31s           2025-02-14T17:12:37
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                            1           0  0.31s           2025-02-14T17:12:39
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py                                                 1           0  0.31s           2025-02-14T17:12:41
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                                        1           0  0.31s           2025-02-14T17:12:42
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                                          1           0  0.31s           2025-02-14T17:12:43
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                                 1           0  0.41s           2025-02-14T17:12:45
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                                      1           0  0.31s           2025-02-14T17:12:46
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                         1           0  0.31s           2025-02-14T17:12:47
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                               1           0  0.31s           2025-02-14T17:12:48
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                             1           0  0.31s           2025-02-14T17:12:49
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                               1           0  0.31s           2025-02-14T17:12:50
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                   1           0  0.31s           2025-02-14T17:12:51
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                    1           0  0.21s           2025-02-14T17:12:53
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                             1           0  0.31s           2025-02-14T17:12:54
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py                                                           1           0  0.31s           2025-02-14T17:12:01
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py                                                              1           0  0.31s           2025-02-14T17:12:05
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                      1           0  0.31s           2025-02-14T17:12:06
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                              1           0  0.31s           2025-02-14T17:12:09
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                                    1           0  0.41s           2025-02-14T17:12:29
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                                      1           0  0.41s           2025-02-14T17:12:30
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                             2           0  0.31s           2025-02-14T17:12:00
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py                                                             2           0  0.41s           2025-02-14T17:12:03
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                             2           0  0.31s           2025-02-14T17:12:04
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                                      3           0  0.32s           2025-02-14T17:12:08
+================================================================================
+[2025-02-14 17:13:25,114] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/airflow/dags/Lead_scoring_data_pipeline/constants.py                                                                                  0           0  0.11s           2025-02-14T17:13:12
+/home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/constants-checkpoint.py                                                    0           0  0.11s           2025-02-14T17:13:13
+/home/airflow/dags/Lead_scoring_training_pipeline/constants.py                                                                              0           0  0.11s           2025-02-14T17:13:07
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                  0           0  0.31s           2025-02-14T17:13:17
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                            0           0  0.31s           2025-02-14T17:13:19
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                                         0           0  0.31s           2025-02-14T17:12:38
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py                                                              0           0  0.11s           2025-02-14T17:12:32
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                               0           0  0.11s           2025-02-14T17:12:33
+/home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py                                                                 1           0  0.82s           2025-02-14T17:13:09
+/home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/lead_scoring_data_pipeline-checkpoint.py                                   1           0  0.81s           2025-02-14T17:13:11
+/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py                                                         1           0  3.12s           2025-02-14T17:13:02
+/home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/lead_scoring_training_pipeline-checkpoint.py                           1           0  3.12s           2025-02-14T17:13:06
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                                     1           0  0.31s           2025-02-14T17:13:14
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                              1           0  0.31s           2025-02-14T17:13:15
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py                                                        1           0  0.41s           2025-02-14T17:13:18
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py                                                        1           0  0.31s           2025-02-14T17:12:34
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                          1           0  0.31s           2025-02-14T17:12:35
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                             1           0  0.31s           2025-02-14T17:12:37
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                            1           0  0.31s           2025-02-14T17:12:39
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py                                                 1           0  0.31s           2025-02-14T17:12:41
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                                        1           0  0.31s           2025-02-14T17:12:42
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                                          1           0  0.31s           2025-02-14T17:12:43
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                                 1           0  0.41s           2025-02-14T17:12:45
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                                      1           0  0.31s           2025-02-14T17:12:46
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                         1           0  0.31s           2025-02-14T17:12:47
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                               1           0  0.31s           2025-02-14T17:12:48
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                             1           0  0.31s           2025-02-14T17:12:49
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                               1           0  0.31s           2025-02-14T17:12:50
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                   1           0  0.31s           2025-02-14T17:12:51
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                    1           0  0.21s           2025-02-14T17:12:53
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                             1           0  0.31s           2025-02-14T17:12:54
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py                                                           1           0  0.31s           2025-02-14T17:12:56
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py                                                              1           0  0.31s           2025-02-14T17:13:21
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                      1           0  0.31s           2025-02-14T17:13:22
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                              1           0  0.31s           2025-02-14T17:13:25
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                                    1           0  0.41s           2025-02-14T17:12:29
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                                      1           0  0.41s           2025-02-14T17:12:30
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                             2           0  0.31s           2025-02-14T17:12:55
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py                                                             2           0  0.41s           2025-02-14T17:12:57
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                             2           0  0.31s           2025-02-14T17:12:59
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                                      3           0  0.31s           2025-02-14T17:13:23
+================================================================================
+[2025-02-14 17:13:55,693] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/airflow/dags/Lead_scoring_data_pipeline/constants.py                                                                                  0           0  0.11s           2025-02-14T17:13:12
+/home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/constants-checkpoint.py                                                    0           0  0.11s           2025-02-14T17:13:13
+/home/airflow/dags/Lead_scoring_training_pipeline/constants.py                                                                              0           0  0.11s           2025-02-14T17:13:07
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                  0           0  0.31s           2025-02-14T17:13:17
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                            0           0  0.31s           2025-02-14T17:13:19
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                                         0           0  0.31s           2025-02-14T17:13:30
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py                                                              0           0  0.11s           2025-02-14T17:13:50
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                               0           0  0.11s           2025-02-14T17:13:51
+/home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py                                                                 1           0  0.82s           2025-02-14T17:13:09
+/home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/lead_scoring_data_pipeline-checkpoint.py                                   1           0  0.81s           2025-02-14T17:13:11
+/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py                                                         1           0  3.12s           2025-02-14T17:13:55
+/home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/lead_scoring_training_pipeline-checkpoint.py                           1           0  3.12s           2025-02-14T17:13:06
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                                     1           0  0.31s           2025-02-14T17:13:14
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                              1           0  0.31s           2025-02-14T17:13:15
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py                                                        1           0  0.41s           2025-02-14T17:13:18
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py                                                        1           0  0.31s           2025-02-14T17:13:27
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                          1           0  0.31s           2025-02-14T17:13:28
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                             1           0  0.41s           2025-02-14T17:13:29
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                            1           0  0.31s           2025-02-14T17:13:31
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py                                                 1           0  0.31s           2025-02-14T17:13:33
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                                        1           0  0.31s           2025-02-14T17:13:34
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                                          1           0  0.21s           2025-02-14T17:13:35
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                                 1           0  0.31s           2025-02-14T17:13:37
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                                      1           0  0.31s           2025-02-14T17:13:38
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                         1           0  0.31s           2025-02-14T17:13:39
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                               1           0  0.21s           2025-02-14T17:13:39
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                             1           0  0.21s           2025-02-14T17:13:41
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                               1           0  0.31s           2025-02-14T17:13:41
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                   1           0  0.31s           2025-02-14T17:13:43
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                    1           0  0.31s           2025-02-14T17:13:44
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                             1           0  0.31s           2025-02-14T17:13:45
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py                                                           1           0  0.31s           2025-02-14T17:13:47
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py                                                              1           0  0.31s           2025-02-14T17:13:21
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                      1           0  0.31s           2025-02-14T17:13:22
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                              1           0  0.31s           2025-02-14T17:13:25
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                                    1           0  0.31s           2025-02-14T17:13:26
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                                      1           0  0.31s           2025-02-14T17:13:49
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                             2           0  0.31s           2025-02-14T17:13:46
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py                                                             2           0  0.41s           2025-02-14T17:12:57
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                             2           0  0.31s           2025-02-14T17:12:59
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                                      3           0  0.31s           2025-02-14T17:13:23
+================================================================================
+[2025-02-14 17:14:05,607] {manager.py:690} INFO - Searching for files in /home/airflow/dags
+[2025-02-14 17:14:05,623] {manager.py:693} INFO - There are 41 files in /home/airflow/dags
+[2025-02-14 17:14:26,100] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/airflow/dags/Lead_scoring_data_pipeline/constants.py                                                                                  0           0  0.11s           2025-02-14T17:14:05
+/home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/constants-checkpoint.py                                                    0           0  0.11s           2025-02-14T17:14:07
+/home/airflow/dags/Lead_scoring_training_pipeline/constants.py                                                                              0           0  0.11s           2025-02-14T17:14:00
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                  0           0  0.11s           2025-02-14T17:14:09
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                            0           0  0.11s           2025-02-14T17:14:12
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                                         0           0  0.11s           2025-02-14T17:14:19
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py                                                              0           0  0.11s           2025-02-14T17:13:50
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                               0           0  0.11s           2025-02-14T17:13:51
+/home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py                                                                 1           0  0.81s           2025-02-14T17:14:02
+/home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/lead_scoring_data_pipeline-checkpoint.py                                   1           0  0.82s           2025-02-14T17:14:04
+/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py                                                         1           0  3.12s           2025-02-14T17:13:55
+/home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/lead_scoring_training_pipeline-checkpoint.py                           1           0  3.02s           2025-02-14T17:13:59
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                                     1           0  0.11s           2025-02-14T17:14:08
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                              1           0  0.12s           2025-02-14T17:14:09
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py                                                        1           0  0.21s           2025-02-14T17:14:11
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py                                                        1           0  0.11s           2025-02-14T17:14:16
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                          1           0  0.11s           2025-02-14T17:14:17
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                             1           0  0.11s           2025-02-14T17:14:18
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                            1           0  0.21s           2025-02-14T17:14:20
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py                                                 1           0  0.21s           2025-02-14T17:14:21
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                                        1           0  0.11s           2025-02-14T17:14:22
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                                          1           0  0.11s           2025-02-14T17:14:23
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                                 1           0  0.21s           2025-02-14T17:14:24
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                                      1           0  0.11s           2025-02-14T17:14:26
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                         1           0  0.31s           2025-02-14T17:13:39
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                               1           0  0.21s           2025-02-14T17:13:39
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                             1           0  0.21s           2025-02-14T17:13:41
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                               1           0  0.31s           2025-02-14T17:13:41
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                   1           0  0.31s           2025-02-14T17:13:43
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                    1           0  0.31s           2025-02-14T17:13:44
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                             1           0  0.31s           2025-02-14T17:13:45
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py                                                           1           0  0.31s           2025-02-14T17:13:47
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py                                                              1           0  0.12s           2025-02-14T17:14:14
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                      1           0  0.21s           2025-02-14T17:14:16
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                              1           0  0.31s           2025-02-14T17:13:25
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                                    1           0  0.31s           2025-02-14T17:13:26
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                                      1           0  0.31s           2025-02-14T17:13:49
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                             2           0  0.31s           2025-02-14T17:13:46
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py                                                             2           0  0.21s           2025-02-14T17:14:13
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                             2           0  0.12s           2025-02-14T17:14:14
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                                      3           0  0.31s           2025-02-14T17:13:23
+================================================================================
+[2025-02-14 17:14:56,628] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/airflow/dags/Lead_scoring_data_pipeline/constants.py                                                                                  0           0  0.11s           2025-02-14T17:14:47
+/home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/constants-checkpoint.py                                                    0           0  0.11s           2025-02-14T17:14:54
+/home/airflow/dags/Lead_scoring_training_pipeline/constants.py                                                                              0           0  0.11s           2025-02-14T17:14:44
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                  0           0  0.11s           2025-02-14T17:14:09
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                            0           0  0.11s           2025-02-14T17:14:12
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                                         0           0  0.11s           2025-02-14T17:14:19
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py                                                              0           0  0.11s           2025-02-14T17:14:52
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                               0           0  0.11s           2025-02-14T17:14:53
+/home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py                                                                 1           0  0.71s           2025-02-14T17:14:45
+/home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/lead_scoring_data_pipeline-checkpoint.py                                   1           0  0.61s           2025-02-14T17:14:46
+/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py                                                         1           0  3.02s           2025-02-14T17:14:39
+/home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/lead_scoring_training_pipeline-checkpoint.py                           1           0  2.94s           2025-02-14T17:14:43
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                                     1           0  0.11s           2025-02-14T17:14:55
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                              1           0  0.12s           2025-02-14T17:14:56
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py                                                        1           0  0.21s           2025-02-14T17:14:11
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py                                                        1           0  0.11s           2025-02-14T17:14:16
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                          1           0  0.11s           2025-02-14T17:14:17
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                             1           0  0.11s           2025-02-14T17:14:18
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                            1           0  0.21s           2025-02-14T17:14:20
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py                                                 1           0  0.21s           2025-02-14T17:14:21
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                                        1           0  0.11s           2025-02-14T17:14:22
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                                          1           0  0.11s           2025-02-14T17:14:23
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                                 1           0  0.21s           2025-02-14T17:14:24
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                                      1           0  0.11s           2025-02-14T17:14:26
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                         1           0  0.11s           2025-02-14T17:14:26
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                               1           0  0.11s           2025-02-14T17:14:27
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                             1           0  0.11s           2025-02-14T17:14:28
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                               1           0  0.11s           2025-02-14T17:14:30
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                   1           0  0.11s           2025-02-14T17:14:30
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                    1           0  0.11s           2025-02-14T17:14:31
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                             1           0  0.11s           2025-02-14T17:14:31
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py                                                           1           0  0.11s           2025-02-14T17:14:50
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py                                                              1           0  0.12s           2025-02-14T17:14:14
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                      1           0  0.21s           2025-02-14T17:14:16
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                              1           0  0.12s           2025-02-14T17:14:34
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                                    1           0  0.21s           2025-02-14T17:14:35
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                                      1           0  0.12s           2025-02-14T17:14:51
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                             2           0  0.11s           2025-02-14T17:14:49
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py                                                             2           0  0.21s           2025-02-14T17:14:13
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                             2           0  0.12s           2025-02-14T17:14:14
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                                      3           0  0.21s           2025-02-14T17:14:32
+================================================================================
+[2025-02-14 17:15:30,500] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/airflow/dags/Lead_scoring_data_pipeline/constants.py                                                                                  0           0  0.11s           2025-02-14T17:14:47
+/home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/constants-checkpoint.py                                                    0           0  0.11s           2025-02-14T17:14:54
+/home/airflow/dags/Lead_scoring_training_pipeline/constants.py                                                                              0           0  0.11s           2025-02-14T17:14:44
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                  0           0  0.11s           2025-02-14T17:14:57
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                            0           0  0.11s           2025-02-14T17:15:00
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                                         0           0  0.11s           2025-02-14T17:15:02
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py                                                              0           0  0.11s           2025-02-14T17:14:52
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                               0           0  0.11s           2025-02-14T17:14:53
+/home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py                                                                 1           0  0.71s           2025-02-14T17:14:45
+/home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/lead_scoring_data_pipeline-checkpoint.py                                   1           0  0.61s           2025-02-14T17:14:46
+/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py                                                         1           0  2.94s           2025-02-14T17:15:15
+/home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/lead_scoring_training_pipeline-checkpoint.py                           1           0  3.02s           2025-02-14T17:15:30
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                                     1           0  0.11s           2025-02-14T17:14:55
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                              1           0  0.12s           2025-02-14T17:14:56
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py                                                        1           0  0.21s           2025-02-14T17:14:59
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py                                                        1           0  0.11s           2025-02-14T17:15:00
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                          1           0  0.11s           2025-02-14T17:15:00
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                             1           0  0.11s           2025-02-14T17:15:01
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                            1           0  0.12s           2025-02-14T17:15:03
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py                                                 1           0  0.21s           2025-02-14T17:15:04
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                                        1           0  0.11s           2025-02-14T17:15:05
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                                          1           0  0.11s           2025-02-14T17:15:06
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                                 1           0  0.21s           2025-02-14T17:15:15
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                                      1           0  0.11s           2025-02-14T17:15:16
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                         1           0  0.11s           2025-02-14T17:15:17
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                               1           0  0.11s           2025-02-14T17:15:18
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                             1           0  0.11s           2025-02-14T17:15:19
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                               1           0  0.11s           2025-02-14T17:15:20
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                   1           0  0.11s           2025-02-14T17:15:21
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                    1           0  0.11s           2025-02-14T17:15:22
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                             1           0  0.11s           2025-02-14T17:15:23
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py                                                           1           0  0.11s           2025-02-14T17:14:50
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py                                                              1           0  0.12s           2025-02-14T17:15:10
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                      1           0  0.21s           2025-02-14T17:15:11
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                              1           0  0.12s           2025-02-14T17:15:25
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                                    1           0  0.21s           2025-02-14T17:15:26
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                                      1           0  0.12s           2025-02-14T17:14:51
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                             2           0  0.11s           2025-02-14T17:14:49
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py                                                             2           0  0.21s           2025-02-14T17:15:08
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                             2           0  0.21s           2025-02-14T17:15:09
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                                      3           0  0.21s           2025-02-14T17:15:24
+================================================================================
+[2025-02-14 17:16:00,842] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/airflow/dags/Lead_scoring_data_pipeline/constants.py                                                                                  0           0  0.11s           2025-02-14T17:15:34
+/home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/constants-checkpoint.py                                                    0           0  0.11s           2025-02-14T17:15:35
+/home/airflow/dags/Lead_scoring_training_pipeline/constants.py                                                                              0           0  0.11s           2025-02-14T17:15:30
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                  0           0  0.11s           2025-02-14T17:15:43
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                            0           0  0.11s           2025-02-14T17:15:45
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                                         0           0  0.11s           2025-02-14T17:15:48
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py                                                              0           0  0.11s           2025-02-14T17:15:41
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                               0           0  0.11s           2025-02-14T17:15:42
+/home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py                                                                 1           0  0.61s           2025-02-14T17:15:32
+/home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/lead_scoring_data_pipeline-checkpoint.py                                   1           0  0.71s           2025-02-14T17:15:33
+/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py                                                         1           0  3.02s           2025-02-14T17:16:00
+/home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/lead_scoring_training_pipeline-checkpoint.py                           1           0  3.02s           2025-02-14T17:15:30
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                                     1           0  0.11s           2025-02-14T17:15:36
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                              1           0  0.12s           2025-02-14T17:15:37
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py                                                        1           0  0.12s           2025-02-14T17:15:44
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py                                                        1           0  0.11s           2025-02-14T17:15:45
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                          1           0  0.11s           2025-02-14T17:15:47
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                             1           0  0.11s           2025-02-14T17:15:47
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                            1           0  0.12s           2025-02-14T17:15:49
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py                                                 1           0  0.21s           2025-02-14T17:15:51
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                                        1           0  0.21s           2025-02-14T17:15:52
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                                          1           0  0.11s           2025-02-14T17:15:52
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                                 1           0  0.21s           2025-02-14T17:15:15
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                                      1           0  0.11s           2025-02-14T17:15:16
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                         1           0  0.11s           2025-02-14T17:15:17
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                               1           0  0.11s           2025-02-14T17:15:18
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                             1           0  0.11s           2025-02-14T17:15:19
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                               1           0  0.11s           2025-02-14T17:15:20
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                   1           0  0.11s           2025-02-14T17:15:21
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                    1           0  0.11s           2025-02-14T17:15:22
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                             1           0  0.11s           2025-02-14T17:15:23
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py                                                           1           0  0.11s           2025-02-14T17:15:39
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py                                                              1           0  0.12s           2025-02-14T17:15:55
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                      1           0  0.21s           2025-02-14T17:15:56
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                              1           0  0.12s           2025-02-14T17:15:25
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                                    1           0  0.21s           2025-02-14T17:15:26
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                                      1           0  0.11s           2025-02-14T17:15:40
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                             2           0  0.11s           2025-02-14T17:15:38
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py                                                             2           0  0.11s           2025-02-14T17:15:53
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                             2           0  0.21s           2025-02-14T17:15:55
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                                      3           0  0.21s           2025-02-14T17:15:24
+================================================================================
+[2025-02-14 17:16:31,637] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/airflow/dags/Lead_scoring_data_pipeline/constants.py                                                                                  0           0  0.11s           2025-02-14T17:16:19
+/home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/constants-checkpoint.py                                                    0           0  0.11s           2025-02-14T17:16:20
+/home/airflow/dags/Lead_scoring_training_pipeline/constants.py                                                                              0           0  0.11s           2025-02-14T17:16:15
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                  0           0  0.11s           2025-02-14T17:16:28
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                            0           0  0.11s           2025-02-14T17:16:30
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                                         0           0  0.11s           2025-02-14T17:15:48
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py                                                              0           0  0.11s           2025-02-14T17:16:27
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                               0           0  0.11s           2025-02-14T17:15:42
+/home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py                                                                 1           0  0.71s           2025-02-14T17:16:16
+/home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/lead_scoring_data_pipeline-checkpoint.py                                   1           0  0.61s           2025-02-14T17:16:18
+/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py                                                         1           0  3.02s           2025-02-14T17:16:00
+/home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/lead_scoring_training_pipeline-checkpoint.py                           1           0  2.94s           2025-02-14T17:16:15
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                                     1           0  0.11s           2025-02-14T17:16:21
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                              1           0  0.12s           2025-02-14T17:16:23
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py                                                        1           0  0.12s           2025-02-14T17:16:29
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py                                                        1           0  0.11s           2025-02-14T17:16:31
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                          1           0  0.11s           2025-02-14T17:15:47
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                             1           0  0.11s           2025-02-14T17:15:47
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                            1           0  0.12s           2025-02-14T17:15:49
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py                                                 1           0  0.21s           2025-02-14T17:15:51
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                                        1           0  0.21s           2025-02-14T17:15:52
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                                          1           0  0.11s           2025-02-14T17:15:52
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                                 1           0  0.11s           2025-02-14T17:16:01
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                                      1           0  0.11s           2025-02-14T17:16:02
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                         1           0  0.11s           2025-02-14T17:16:03
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                               1           0  0.11s           2025-02-14T17:16:04
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                             1           0  0.11s           2025-02-14T17:16:05
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                               1           0  0.11s           2025-02-14T17:16:05
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                   1           0  0.11s           2025-02-14T17:16:06
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                    1           0  0.11s           2025-02-14T17:16:07
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                             1           0  0.11s           2025-02-14T17:16:08
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py                                                           1           0  0.11s           2025-02-14T17:16:25
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py                                                              1           0  0.12s           2025-02-14T17:15:55
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                      1           0  0.21s           2025-02-14T17:15:56
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                              1           0  0.12s           2025-02-14T17:16:10
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                                    1           0  0.11s           2025-02-14T17:16:11
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                                      1           0  0.21s           2025-02-14T17:16:26
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                             2           0  0.11s           2025-02-14T17:16:24
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py                                                             2           0  0.11s           2025-02-14T17:15:53
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                             2           0  0.21s           2025-02-14T17:15:55
+/opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                                      3           0  0.21s           2025-02-14T17:16:09
+================================================================================
+[2025-02-14 17:16:54,709] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15

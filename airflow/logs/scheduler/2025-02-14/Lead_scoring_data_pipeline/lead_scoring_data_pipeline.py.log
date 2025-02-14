@@ -857,3 +857,84 @@ ModuleNotFoundError: No module named 'constants'
 [2025-02-14 14:42:36,079] {logging_mixin.py:115} INFO - [2025-02-14 14:42:36,078] {dag.py:2420} INFO - Sync 1 DAGs
 [2025-02-14 14:42:36,092] {logging_mixin.py:115} INFO - [2025-02-14 14:42:36,092] {dag.py:2968} INFO - Setting next_dagrun for TK_Lead_Scoring_Data_Engineering_Pipeline to 2025-02-14T00:00:00+00:00, run_after=2025-02-15T00:00:00+00:00
 [2025-02-14 14:42:36,123] {processor.py:161} INFO - Processing /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py took 0.498 seconds
+[2025-02-14 17:09:11,652] {processor.py:153} INFO - Started process (PID=6285) to work on /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2025-02-14 17:09:11,654] {processor.py:641} INFO - Processing file /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py for tasks to queue
+[2025-02-14 17:09:11,654] {logging_mixin.py:115} INFO - [2025-02-14 17:09:11,654] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2025-02-14 17:09:12,119] {logging_mixin.py:115} INFO - [2025-02-14 17:09:12,119] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-14 17:09:12,119] {logging_mixin.py:115} INFO - [2025-02-14 17:09:12,119] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-14 17:09:12,346] {processor.py:651} INFO - DAG(s) dict_keys(['TK_Lead_Scoring_Data_Engineering_Pipeline']) retrieved from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2025-02-14 17:09:12,392] {logging_mixin.py:115} INFO - [2025-02-14 17:09:12,391] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-14 17:09:12,410] {logging_mixin.py:115} INFO - [2025-02-14 17:09:12,410] {dag.py:2968} INFO - Setting next_dagrun for TK_Lead_Scoring_Data_Engineering_Pipeline to 2025-02-14T00:00:00+00:00, run_after=2025-02-15T00:00:00+00:00
+[2025-02-14 17:09:12,438] {processor.py:161} INFO - Processing /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py took 0.789 seconds
+[2025-02-14 17:10:06,397] {processor.py:153} INFO - Started process (PID=6396) to work on /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2025-02-14 17:10:06,399] {processor.py:641} INFO - Processing file /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py for tasks to queue
+[2025-02-14 17:10:06,399] {logging_mixin.py:115} INFO - [2025-02-14 17:10:06,399] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2025-02-14 17:10:06,865] {logging_mixin.py:115} INFO - [2025-02-14 17:10:06,865] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-14 17:10:06,866] {logging_mixin.py:115} INFO - [2025-02-14 17:10:06,866] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-14 17:10:07,093] {processor.py:651} INFO - DAG(s) dict_keys(['TK_Lead_Scoring_Data_Engineering_Pipeline']) retrieved from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2025-02-14 17:10:07,107] {logging_mixin.py:115} INFO - [2025-02-14 17:10:07,107] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-14 17:10:07,128] {logging_mixin.py:115} INFO - [2025-02-14 17:10:07,128] {dag.py:2968} INFO - Setting next_dagrun for TK_Lead_Scoring_Data_Engineering_Pipeline to 2025-02-14T00:00:00+00:00, run_after=2025-02-15T00:00:00+00:00
+[2025-02-14 17:10:07,151] {processor.py:161} INFO - Processing /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py took 0.758 seconds
+[2025-02-14 17:11:29,493] {processor.py:153} INFO - Started process (PID=6542) to work on /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2025-02-14 17:11:29,495] {processor.py:641} INFO - Processing file /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py for tasks to queue
+[2025-02-14 17:11:29,496] {logging_mixin.py:115} INFO - [2025-02-14 17:11:29,495] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2025-02-14 17:11:29,959] {logging_mixin.py:115} INFO - [2025-02-14 17:11:29,958] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-14 17:11:29,959] {logging_mixin.py:115} INFO - [2025-02-14 17:11:29,959] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-14 17:11:30,185] {processor.py:651} INFO - DAG(s) dict_keys(['TK_Lead_Scoring_Data_Engineering_Pipeline']) retrieved from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2025-02-14 17:11:30,230] {logging_mixin.py:115} INFO - [2025-02-14 17:11:30,230] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-14 17:11:30,249] {logging_mixin.py:115} INFO - [2025-02-14 17:11:30,249] {dag.py:2968} INFO - Setting next_dagrun for TK_Lead_Scoring_Data_Engineering_Pipeline to 2025-02-14T00:00:00+00:00, run_after=2025-02-15T00:00:00+00:00
+[2025-02-14 17:11:30,277] {processor.py:161} INFO - Processing /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py took 0.787 seconds
+[2025-02-14 17:12:18,544] {processor.py:153} INFO - Started process (PID=6611) to work on /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2025-02-14 17:12:18,546] {processor.py:641} INFO - Processing file /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py for tasks to queue
+[2025-02-14 17:12:18,546] {logging_mixin.py:115} INFO - [2025-02-14 17:12:18,546] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2025-02-14 17:12:19,006] {logging_mixin.py:115} INFO - [2025-02-14 17:12:19,006] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-14 17:12:19,007] {logging_mixin.py:115} INFO - [2025-02-14 17:12:19,007] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-14 17:12:19,232] {processor.py:651} INFO - DAG(s) dict_keys(['TK_Lead_Scoring_Data_Engineering_Pipeline']) retrieved from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2025-02-14 17:12:19,247] {logging_mixin.py:115} INFO - [2025-02-14 17:12:19,246] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-14 17:12:19,267] {logging_mixin.py:115} INFO - [2025-02-14 17:12:19,267] {dag.py:2968} INFO - Setting next_dagrun for TK_Lead_Scoring_Data_Engineering_Pipeline to 2025-02-14T00:00:00+00:00, run_after=2025-02-15T00:00:00+00:00
+[2025-02-14 17:12:19,291] {processor.py:161} INFO - Processing /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py took 0.751 seconds
+[2025-02-14 17:13:08,980] {processor.py:153} INFO - Started process (PID=6680) to work on /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2025-02-14 17:13:08,982] {processor.py:641} INFO - Processing file /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py for tasks to queue
+[2025-02-14 17:13:08,982] {logging_mixin.py:115} INFO - [2025-02-14 17:13:08,982] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2025-02-14 17:13:09,444] {logging_mixin.py:115} INFO - [2025-02-14 17:13:09,444] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-14 17:13:09,444] {logging_mixin.py:115} INFO - [2025-02-14 17:13:09,444] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-14 17:13:09,672] {processor.py:651} INFO - DAG(s) dict_keys(['TK_Lead_Scoring_Data_Engineering_Pipeline']) retrieved from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2025-02-14 17:13:09,718] {logging_mixin.py:115} INFO - [2025-02-14 17:13:09,718] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-14 17:13:09,736] {logging_mixin.py:115} INFO - [2025-02-14 17:13:09,736] {dag.py:2968} INFO - Setting next_dagrun for TK_Lead_Scoring_Data_Engineering_Pipeline to 2025-02-14T00:00:00+00:00, run_after=2025-02-15T00:00:00+00:00
+[2025-02-14 17:13:09,763] {processor.py:161} INFO - Processing /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py took 0.787 seconds
+[2025-02-14 17:14:01,925] {processor.py:153} INFO - Started process (PID=6751) to work on /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2025-02-14 17:14:01,926] {processor.py:641} INFO - Processing file /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py for tasks to queue
+[2025-02-14 17:14:01,927] {logging_mixin.py:115} INFO - [2025-02-14 17:14:01,927] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2025-02-14 17:14:02,387] {logging_mixin.py:115} INFO - [2025-02-14 17:14:02,387] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-14 17:14:02,387] {logging_mixin.py:115} INFO - [2025-02-14 17:14:02,387] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-14 17:14:02,613] {processor.py:651} INFO - DAG(s) dict_keys(['TK_Lead_Scoring_Data_Engineering_Pipeline']) retrieved from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2025-02-14 17:14:02,627] {logging_mixin.py:115} INFO - [2025-02-14 17:14:02,626] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-14 17:14:02,647] {logging_mixin.py:115} INFO - [2025-02-14 17:14:02,647] {dag.py:2968} INFO - Setting next_dagrun for TK_Lead_Scoring_Data_Engineering_Pipeline to 2025-02-14T00:00:00+00:00, run_after=2025-02-15T00:00:00+00:00
+[2025-02-14 17:14:02,670] {processor.py:161} INFO - Processing /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py took 0.748 seconds
+[2025-02-14 17:14:44,494] {processor.py:153} INFO - Started process (PID=6819) to work on /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2025-02-14 17:14:44,496] {processor.py:641} INFO - Processing file /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py for tasks to queue
+[2025-02-14 17:14:44,496] {logging_mixin.py:115} INFO - [2025-02-14 17:14:44,496] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2025-02-14 17:14:44,777] {logging_mixin.py:115} INFO - [2025-02-14 17:14:44,776] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-14 17:14:44,777] {logging_mixin.py:115} INFO - [2025-02-14 17:14:44,777] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-14 17:14:45,006] {processor.py:651} INFO - DAG(s) dict_keys(['TK_Lead_Scoring_Data_Engineering_Pipeline']) retrieved from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2025-02-14 17:14:45,057] {logging_mixin.py:115} INFO - [2025-02-14 17:14:45,056] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-14 17:14:45,076] {logging_mixin.py:115} INFO - [2025-02-14 17:14:45,075] {dag.py:2968} INFO - Setting next_dagrun for TK_Lead_Scoring_Data_Engineering_Pipeline to 2025-02-14T00:00:00+00:00, run_after=2025-02-15T00:00:00+00:00
+[2025-02-14 17:14:45,102] {processor.py:161} INFO - Processing /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py took 0.611 seconds
+[2025-02-14 17:15:31,489] {processor.py:153} INFO - Started process (PID=6892) to work on /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2025-02-14 17:15:31,491] {processor.py:641} INFO - Processing file /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py for tasks to queue
+[2025-02-14 17:15:31,492] {logging_mixin.py:115} INFO - [2025-02-14 17:15:31,492] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2025-02-14 17:15:31,773] {logging_mixin.py:115} INFO - [2025-02-14 17:15:31,773] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-14 17:15:31,773] {logging_mixin.py:115} INFO - [2025-02-14 17:15:31,773] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-14 17:15:32,004] {processor.py:651} INFO - DAG(s) dict_keys(['TK_Lead_Scoring_Data_Engineering_Pipeline']) retrieved from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2025-02-14 17:15:32,020] {logging_mixin.py:115} INFO - [2025-02-14 17:15:32,019] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-14 17:15:32,043] {logging_mixin.py:115} INFO - [2025-02-14 17:15:32,043] {dag.py:2968} INFO - Setting next_dagrun for TK_Lead_Scoring_Data_Engineering_Pipeline to 2025-02-14T00:00:00+00:00, run_after=2025-02-15T00:00:00+00:00
+[2025-02-14 17:15:32,065] {processor.py:161} INFO - Processing /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py took 0.579 seconds
+[2025-02-14 17:16:16,084] {processor.py:153} INFO - Started process (PID=7131) to work on /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2025-02-14 17:16:16,086] {processor.py:641} INFO - Processing file /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py for tasks to queue
+[2025-02-14 17:16:16,087] {logging_mixin.py:115} INFO - [2025-02-14 17:16:16,087] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2025-02-14 17:16:16,368] {logging_mixin.py:115} INFO - [2025-02-14 17:16:16,368] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-14 17:16:16,368] {logging_mixin.py:115} INFO - [2025-02-14 17:16:16,368] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-14 17:16:16,598] {processor.py:651} INFO - DAG(s) dict_keys(['TK_Lead_Scoring_Data_Engineering_Pipeline']) retrieved from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2025-02-14 17:16:16,648] {logging_mixin.py:115} INFO - [2025-02-14 17:16:16,647] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-14 17:16:16,667] {logging_mixin.py:115} INFO - [2025-02-14 17:16:16,667] {dag.py:2968} INFO - Setting next_dagrun for TK_Lead_Scoring_Data_Engineering_Pipeline to 2025-02-14T00:00:00+00:00, run_after=2025-02-15T00:00:00+00:00
+[2025-02-14 17:16:16,692] {processor.py:161} INFO - Processing /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py took 0.611 seconds

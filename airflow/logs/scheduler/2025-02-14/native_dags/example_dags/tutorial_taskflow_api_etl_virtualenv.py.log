@@ -310,3 +310,57 @@
 [2025-02-14 14:42:50,995] {logging_mixin.py:115} INFO - [2025-02-14 14:42:50,995] {tutorial_taskflow_api_etl_virtualenv.py:29} WARNING - The tutorial_taskflow_api_etl_virtualenv example DAG requires virtualenv, please install it.
 [2025-02-14 14:42:50,995] {processor.py:653} WARNING - No viable dags retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
 [2025-02-14 14:42:51,001] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.155 seconds
+[2025-02-14 17:09:25,142] {processor.py:153} INFO - Started process (PID=6351) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2025-02-14 17:09:25,143] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2025-02-14 17:09:25,144] {logging_mixin.py:115} INFO - [2025-02-14 17:09:25,144] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2025-02-14 17:09:25,345] {logging_mixin.py:115} INFO - [2025-02-14 17:09:25,345] {tutorial_taskflow_api_etl_virtualenv.py:29} WARNING - The tutorial_taskflow_api_etl_virtualenv example DAG requires virtualenv, please install it.
+[2025-02-14 17:09:25,345] {processor.py:653} WARNING - No viable dags retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2025-02-14 17:09:25,387] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.248 seconds
+[2025-02-14 17:10:20,901] {processor.py:153} INFO - Started process (PID=6424) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2025-02-14 17:10:20,903] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2025-02-14 17:10:20,903] {logging_mixin.py:115} INFO - [2025-02-14 17:10:20,903] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2025-02-14 17:10:21,104] {logging_mixin.py:115} INFO - [2025-02-14 17:10:21,104] {tutorial_taskflow_api_etl_virtualenv.py:29} WARNING - The tutorial_taskflow_api_etl_virtualenv example DAG requires virtualenv, please install it.
+[2025-02-14 17:10:21,104] {processor.py:653} WARNING - No viable dags retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2025-02-14 17:10:21,112] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.214 seconds
+[2025-02-14 17:11:42,878] {processor.py:153} INFO - Started process (PID=6570) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2025-02-14 17:11:42,880] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2025-02-14 17:11:42,881] {logging_mixin.py:115} INFO - [2025-02-14 17:11:42,880] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2025-02-14 17:11:43,013] {logging_mixin.py:115} INFO - [2025-02-14 17:11:43,012] {tutorial_taskflow_api_etl_virtualenv.py:29} WARNING - The tutorial_taskflow_api_etl_virtualenv example DAG requires virtualenv, please install it.
+[2025-02-14 17:11:43,013] {processor.py:653} WARNING - No viable dags retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2025-02-14 17:11:43,018] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.143 seconds
+[2025-02-14 17:12:38,171] {processor.py:153} INFO - Started process (PID=6643) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2025-02-14 17:12:38,173] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2025-02-14 17:12:38,173] {logging_mixin.py:115} INFO - [2025-02-14 17:12:38,173] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2025-02-14 17:12:38,377] {logging_mixin.py:115} INFO - [2025-02-14 17:12:38,376] {tutorial_taskflow_api_etl_virtualenv.py:29} WARNING - The tutorial_taskflow_api_etl_virtualenv example DAG requires virtualenv, please install it.
+[2025-02-14 17:12:38,377] {processor.py:653} WARNING - No viable dags retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2025-02-14 17:12:38,385] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.217 seconds
+[2025-02-14 17:13:30,273] {processor.py:153} INFO - Started process (PID=6713) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2025-02-14 17:13:30,275] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2025-02-14 17:13:30,275] {logging_mixin.py:115} INFO - [2025-02-14 17:13:30,275] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2025-02-14 17:13:30,477] {logging_mixin.py:115} INFO - [2025-02-14 17:13:30,477] {tutorial_taskflow_api_etl_virtualenv.py:29} WARNING - The tutorial_taskflow_api_etl_virtualenv example DAG requires virtualenv, please install it.
+[2025-02-14 17:13:30,477] {processor.py:653} WARNING - No viable dags retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2025-02-14 17:13:30,485] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.215 seconds
+[2025-02-14 17:14:19,669] {processor.py:153} INFO - Started process (PID=6783) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2025-02-14 17:14:19,670] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2025-02-14 17:14:19,671] {logging_mixin.py:115} INFO - [2025-02-14 17:14:19,671] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2025-02-14 17:14:19,687] {logging_mixin.py:115} INFO - [2025-02-14 17:14:19,687] {tutorial_taskflow_api_etl_virtualenv.py:29} WARNING - The tutorial_taskflow_api_etl_virtualenv example DAG requires virtualenv, please install it.
+[2025-02-14 17:14:19,687] {processor.py:653} WARNING - No viable dags retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2025-02-14 17:14:19,698] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.033 seconds
+[2025-02-14 17:15:02,818] {processor.py:153} INFO - Started process (PID=6852) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2025-02-14 17:15:02,820] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2025-02-14 17:15:02,821] {logging_mixin.py:115} INFO - [2025-02-14 17:15:02,821] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2025-02-14 17:15:02,837] {logging_mixin.py:115} INFO - [2025-02-14 17:15:02,836] {tutorial_taskflow_api_etl_virtualenv.py:29} WARNING - The tutorial_taskflow_api_etl_virtualenv example DAG requires virtualenv, please install it.
+[2025-02-14 17:15:02,837] {processor.py:653} WARNING - No viable dags retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2025-02-14 17:15:02,848] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.033 seconds
+[2025-02-14 17:15:48,654] {processor.py:153} INFO - Started process (PID=6925) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2025-02-14 17:15:48,656] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2025-02-14 17:15:48,656] {logging_mixin.py:115} INFO - [2025-02-14 17:15:48,656] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2025-02-14 17:15:48,672] {logging_mixin.py:115} INFO - [2025-02-14 17:15:48,672] {tutorial_taskflow_api_etl_virtualenv.py:29} WARNING - The tutorial_taskflow_api_etl_virtualenv example DAG requires virtualenv, please install it.
+[2025-02-14 17:15:48,673] {processor.py:653} WARNING - No viable dags retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2025-02-14 17:15:48,684] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.033 seconds
+[2025-02-14 17:16:33,263] {processor.py:153} INFO - Started process (PID=7166) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2025-02-14 17:16:33,264] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2025-02-14 17:16:33,265] {logging_mixin.py:115} INFO - [2025-02-14 17:16:33,265] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2025-02-14 17:16:33,281] {logging_mixin.py:115} INFO - [2025-02-14 17:16:33,280] {tutorial_taskflow_api_etl_virtualenv.py:29} WARNING - The tutorial_taskflow_api_etl_virtualenv example DAG requires virtualenv, please install it.
+[2025-02-14 17:16:33,281] {processor.py:653} WARNING - No viable dags retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2025-02-14 17:16:33,292] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.033 seconds
