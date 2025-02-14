@@ -263,3 +263,13 @@
 [2025-02-14 14:37:37,017] {logging_mixin.py:115} INFO - [2025-02-14 14:37:37,016] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/constants-checkpoint.py
 [2025-02-14 14:37:37,018] {processor.py:653} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/constants-checkpoint.py
 [2025-02-14 14:37:37,029] {processor.py:161} INFO - Processing /home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/constants-checkpoint.py took 0.267 seconds
+[2025-02-14 14:41:54,804] {processor.py:153} INFO - Started process (PID=4749) to work on /home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2025-02-14 14:41:54,806] {processor.py:641} INFO - Processing file /home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/constants-checkpoint.py for tasks to queue
+[2025-02-14 14:41:54,806] {logging_mixin.py:115} INFO - [2025-02-14 14:41:54,806] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2025-02-14 14:41:54,807] {processor.py:653} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2025-02-14 14:41:54,818] {processor.py:161} INFO - Processing /home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/constants-checkpoint.py took 0.017 seconds
+[2025-02-14 14:42:40,156] {processor.py:153} INFO - Started process (PID=4843) to work on /home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2025-02-14 14:42:40,157] {processor.py:641} INFO - Processing file /home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/constants-checkpoint.py for tasks to queue
+[2025-02-14 14:42:40,158] {logging_mixin.py:115} INFO - [2025-02-14 14:42:40,158] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2025-02-14 14:42:40,159] {processor.py:653} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2025-02-14 14:42:40,170] {processor.py:161} INFO - Processing /home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/constants-checkpoint.py took 0.017 seconds

@@ -273,3 +273,13 @@
 [2025-02-14 14:37:35,669] {logging_mixin.py:115} INFO - [2025-02-14 14:37:35,669] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_data_pipeline/constants.py
 [2025-02-14 14:37:35,670] {processor.py:653} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_data_pipeline/constants.py
 [2025-02-14 14:37:35,681] {processor.py:161} INFO - Processing /home/airflow/dags/Lead_scoring_data_pipeline/constants.py took 0.095 seconds
+[2025-02-14 14:41:53,650] {processor.py:153} INFO - Started process (PID=4747) to work on /home/airflow/dags/Lead_scoring_data_pipeline/constants.py
+[2025-02-14 14:41:53,725] {processor.py:641} INFO - Processing file /home/airflow/dags/Lead_scoring_data_pipeline/constants.py for tasks to queue
+[2025-02-14 14:41:53,726] {logging_mixin.py:115} INFO - [2025-02-14 14:41:53,725] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_data_pipeline/constants.py
+[2025-02-14 14:41:53,727] {processor.py:653} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_data_pipeline/constants.py
+[2025-02-14 14:41:53,738] {processor.py:161} INFO - Processing /home/airflow/dags/Lead_scoring_data_pipeline/constants.py took 0.091 seconds
+[2025-02-14 14:42:38,993] {processor.py:153} INFO - Started process (PID=4842) to work on /home/airflow/dags/Lead_scoring_data_pipeline/constants.py
+[2025-02-14 14:42:38,995] {processor.py:641} INFO - Processing file /home/airflow/dags/Lead_scoring_data_pipeline/constants.py for tasks to queue
+[2025-02-14 14:42:38,995] {logging_mixin.py:115} INFO - [2025-02-14 14:42:38,995] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_data_pipeline/constants.py
+[2025-02-14 14:42:38,996] {processor.py:653} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_data_pipeline/constants.py
+[2025-02-14 14:42:39,007] {processor.py:161} INFO - Processing /home/airflow/dags/Lead_scoring_data_pipeline/constants.py took 0.017 seconds

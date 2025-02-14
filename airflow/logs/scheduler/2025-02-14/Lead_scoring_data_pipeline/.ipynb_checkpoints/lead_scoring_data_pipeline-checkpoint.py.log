@@ -664,3 +664,21 @@ ModuleNotFoundError: No module named 'constants'
 [2025-02-14 14:37:26,553] {logging_mixin.py:115} INFO - [2025-02-14 14:37:26,552] {dag.py:2420} INFO - Sync 1 DAGs
 [2025-02-14 14:37:26,565] {logging_mixin.py:115} INFO - [2025-02-14 14:37:26,565] {dag.py:2968} INFO - Setting next_dagrun for TK_Lead_Scoring_Data_Engineering_Pipeline to 2025-02-14T00:00:00+00:00, run_after=2025-02-15T00:00:00+00:00
 [2025-02-14 14:37:26,586] {processor.py:161} INFO - Processing /home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/lead_scoring_data_pipeline-checkpoint.py took 0.404 seconds
+[2025-02-14 14:41:52,105] {processor.py:153} INFO - Started process (PID=4738) to work on /home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/lead_scoring_data_pipeline-checkpoint.py
+[2025-02-14 14:41:52,107] {processor.py:641} INFO - Processing file /home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/lead_scoring_data_pipeline-checkpoint.py for tasks to queue
+[2025-02-14 14:41:52,108] {logging_mixin.py:115} INFO - [2025-02-14 14:41:52,107] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/lead_scoring_data_pipeline-checkpoint.py
+[2025-02-14 14:41:52,397] {logging_mixin.py:115} INFO - [2025-02-14 14:41:52,397] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-14 14:41:52,397] {logging_mixin.py:115} INFO - [2025-02-14 14:41:52,397] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-14 14:41:52,534] {processor.py:651} INFO - DAG(s) dict_keys(['TK_Lead_Scoring_Data_Engineering_Pipeline']) retrieved from /home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/lead_scoring_data_pipeline-checkpoint.py
+[2025-02-14 14:41:52,538] {logging_mixin.py:115} INFO - [2025-02-14 14:41:52,538] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-14 14:41:52,551] {logging_mixin.py:115} INFO - [2025-02-14 14:41:52,551] {dag.py:2968} INFO - Setting next_dagrun for TK_Lead_Scoring_Data_Engineering_Pipeline to 2025-02-14T00:00:00+00:00, run_after=2025-02-15T00:00:00+00:00
+[2025-02-14 14:41:52,572] {processor.py:161} INFO - Processing /home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/lead_scoring_data_pipeline-checkpoint.py took 0.470 seconds
+[2025-02-14 14:42:37,293] {processor.py:153} INFO - Started process (PID=4833) to work on /home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/lead_scoring_data_pipeline-checkpoint.py
+[2025-02-14 14:42:37,295] {processor.py:641} INFO - Processing file /home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/lead_scoring_data_pipeline-checkpoint.py for tasks to queue
+[2025-02-14 14:42:37,295] {logging_mixin.py:115} INFO - [2025-02-14 14:42:37,295] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/lead_scoring_data_pipeline-checkpoint.py
+[2025-02-14 14:42:37,587] {logging_mixin.py:115} INFO - [2025-02-14 14:42:37,587] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-14 14:42:37,587] {logging_mixin.py:115} INFO - [2025-02-14 14:42:37,587] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-14 14:42:37,726] {processor.py:651} INFO - DAG(s) dict_keys(['TK_Lead_Scoring_Data_Engineering_Pipeline']) retrieved from /home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/lead_scoring_data_pipeline-checkpoint.py
+[2025-02-14 14:42:37,756] {logging_mixin.py:115} INFO - [2025-02-14 14:42:37,756] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-14 14:42:37,768] {logging_mixin.py:115} INFO - [2025-02-14 14:42:37,768] {dag.py:2968} INFO - Setting next_dagrun for TK_Lead_Scoring_Data_Engineering_Pipeline to 2025-02-14T00:00:00+00:00, run_after=2025-02-15T00:00:00+00:00
+[2025-02-14 14:42:37,799] {processor.py:161} INFO - Processing /home/airflow/dags/Lead_scoring_data_pipeline/.ipynb_checkpoints/lead_scoring_data_pipeline-checkpoint.py took 0.509 seconds
